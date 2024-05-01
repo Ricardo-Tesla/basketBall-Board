@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BasketBall Board</title>
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+
+
+    <body>
+        <div class="board">
+
+            <div class="row1">
+                <p>HOME</p>
+                <span id="timer">00:00</span>
+                 <p>VISITOR</p>
+            </div>
+
+            <div class="row2">
+                <span id="home-points"></span>
+                <span id="visitor-points"></span>
+            </div>
+            
+            <div class="row3">
+                <P>PERIOD</P>
+            </div>
+            <div class="row4">
+                <span id="period"></span>
+            </div>
+            
+            <div class="row5">
+                <p>FOULS</p>
+                <p>FOULS</p>
+            </div>
+
+            <div class="row6">
+                <span id="home-fouls"></span>
+                <span id="visitor-fouls"></span>
+            </div>
+            
+
+        </div>
+        <div class="buttons">
+            <div class="home-btn">
+                <button id="H1pointer-btn" onclick="honePointer()">1-pointer</button>
+                <button id="H2pointer-btn"onclick="htwoPointer()">2-pointer</button>
+                <button id="H3pointer-btn"onclick="hthreePointer()">3-pointer</button>
+                <button id="homeFouls-btn" onclick="homeFouls()">H-Fouls</button>
+            </div>
+
+            <div class="period">
+                <button id="Reset-btn" onclick="reset()">Reset</button>
+                <button id="start-btn" onclick="startTimer">Start</button>
+                <button id="pause-btn" onclick="pauseTimer">Pause</button>
+                <button id="resume-btn" onclick="resumeTimer">Resume</button>
+
+                <button id="period-btn" onclick="period()">Period</button>
+            </div>
+
+            <div class="visitor-btn">
+                <button id="V1pointer-btn"onclick="vonePointer()">1-pointer</button>
+                <button id="V2pointer-btn"onclick="vtwoPointer()">2-pointer</button>
+                <button id="V3pointer-btn"onclick="vthreePointer()">3-pointer</button>
+                <button id="visitorFouls-btn"onclick="visitorFouls()">V-Fouls</button>
+
+            </div>
+            
+        </div>
+        
+
+
+        <script src="index.js"></script>
+    </body>
+
+</html>

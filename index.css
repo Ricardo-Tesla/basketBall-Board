@@ -1,0 +1,72 @@
+
+.board{
+    background-color: black;
+    max-width: 500px;
+    margin-left: 400px;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6{
+    display: flex;
+    justify-content: center; 
+}
+p{
+    color: white;
+    margin:40px 100px;
+}
+#period{
+    color: rgb(231, 15, 15);
+    font-size: 60px;
+}
+#timer{
+    color: red;
+    font-size: 50px;
+}
+
+#home-points{
+    color: green;
+    font-size: 40px;
+    border-color: aliceblue;
+    border: 1px solid rgb(73, 71, 71);
+    margin-right: 250px;
+}
+
+#visitor-points{  
+    color: green;
+    font-size: 40px;
+    border-color: aliceblue;
+    border: 1px solid rgb(73, 71, 71);
+}
+
+#home-fouls{
+    color: yellow;
+    font-size: 40px;
+    padding: 5px 5px;
+    border-color: aliceblue;
+    border: 1px solid rgb(73, 71, 71);
+    margin-right: 200px;
+}
+
+#visitor-fouls{
+    color: yellow;
+    font-size: 40px;
+    padding: 5px 5px;
+    border-color: aliceblue;
+    border: 1px solid rgb(73, 71, 71);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+button{
+    background-color: black;
+    color: red;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
